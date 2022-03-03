@@ -3,39 +3,54 @@
             <title> scroll divs</title>
 
 <style>
-            
-      
-               .container { width: 20vw;
-                                 height: 25vh;
-                            display: flex;
+     
+           
+             
+            .container{ width: 80vw;
+                           height: 25vh; 
+                           border: solid; 
+                           padding: 5px;
                             overflow: scroll;
-                         } 
-                   
-        
-                  
-              .card {             width: 90vw;
-                                    height: 20vh;
-                                   padding: 50px;
-                                   border: 1px solid black;
-                                    text-align: center;
-                                    font-size: 25px;}
-              
-                               
+                            }
+           .one{ display: flex;
+                    overflow: scroll;
+                    width: 80vw; }
+         
+         
+  
+          .cards {  
+                      width: 20vw;
+                      height: 10vh;
+                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                      text-align: center;
+                       padding: 16px;
+                   }
 </style>
 </head>
 <body>
             <div class="container">
-                     
-                 <div class="card">card</div>
-                  <div class="card">card1</div>
-                   <div class="card">card2</div>
-                  <div class="card">card3</div>
-                  <div class="card">card4</div>
-                      <div class="card">card5</div>
-                      <div class="card">card5</div>
-                      <div class="card">card5</div>
-                      <div class="card">card5</div>
-                </div>
-       
-</body>
+                 <div class="one">
+                   <div class="two">
+                <div class="cards">
+                   <h3>card</h3>
+           </div>
+              </div>
+     
+                  <div class="two">
+                <div class="cards">
+                   <h3>card1</h3>
+           </div>
+              </div>
+                     <div class="two">
+                <div class="cards">
+                   <h3>card2</h3>
+           </div>
+              </div>
+                           <div class="two">
+                <div class="cards">
+                   <h3>card3</h3>
+           </div>
+              </div>
+</div>
+ </body>
 </html>
