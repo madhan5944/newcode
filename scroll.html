@@ -3,27 +3,34 @@
             <title> scroll divs</title>
 
 <style>
-     
+     * { margin: 0;}
            
              
             .container{ width: 80vw;
                            height: 25vh; 
                            border: solid; 
                            padding: 5px;
-                            overflow: scroll;
+                           
+                            background-color: aqua;
                             }
            .one{ display: flex;
                     overflow: scroll;
-                    width: 80vw; }
+                    width: 20vw;
+                    height: 25vh;
+                 background-color: red;
+                  
+              }
          
-         
+      
   
           .cards {  
                       width: 20vw;
                       height: 10vh;
                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
                       text-align: center;
-                       padding: 16px;
+                     padding: 16px;
+                     box-sizing: border-box;
+                         background-color: white; 
                    }
 </style>
 </head>
@@ -52,5 +59,6 @@
            </div>
               </div>
 </div>
+
  </body>
 </html>
